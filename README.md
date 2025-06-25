@@ -1,29 +1,30 @@
-# file_organizer_python-and-file_deorganizer-also-
+# 📂 File Organizer & De-Organizer using Python
 
-### **File Organizer Project - Brief Overview**
+[🔗 GitHub Repository](https://github.com/kmshirishadeva/file_organizer_python-and-file_deorganizer-also-)
 
-The **File Organizer** project is a Python script that organizes files in a directory by categorizing them into folders based on their file extensions. It simplifies managing cluttered directories like `Downloads`.
+![Banner](https://github.com/kmshirishadeva/file_organizer_python-and-file_deorganizer-also-/raw/main/preview.png)
 
-#### **How It Works**:
-1. **File Scanning**: Scans the specified directory for files.
-2. **Categorization**: Groups files into categories such as **Images**, **Documents**, **Videos**, **Audio**, or **Others** based on their extensions.
-3. **Folder Creation**: Creates folders for each category if they don’t exist.
-4. **File Movement**: Moves each file to its respective folder.
+## ✨ Project Overview
 
-#### **Example**:
-If the directory contains:
-```
-photo.jpg, report.pdf, video.mp4, song.mp3
-```
+A smart and lightweight Python utility to **automatically organize or de-organize files** in any directory based on file type. Perfect for tidying up cluttered folders like `Downloads`, `Desktop`, or any project directory.
 
-It organizes them as:
-```
-Images/photo.jpg, Documents/report.pdf, Videos/video.mp4, Audio/song.mp3
-```
+---
 
-#### **Benefits**:
-- Keeps directories organized.
-- Saves time and effort.
-- Customizable for different file types.
+## 🚀 Features
 
-Let me know if you'd like the complete code or more details!
+- 🔍 **Auto Scan**: Instantly scans a target directory for all files.
+- 🗂️ **Smart Categorization**: Files are grouped into categories:
+  - 📷 Images (e.g., `.jpg`, `.png`)
+  - 📄 Documents (e.g., `.pdf`, `.docx`)
+  - 🎬 Videos (e.g., `.mp4`, `.avi`)
+  - 🎧 Audio (e.g., `.mp3`, `.wav`)
+  - 📦 Others (unclassified)
+- 📁 **Auto Folder Creation**: Automatically creates folders if not already present.
+- 📦 **Move Files**: Organizes files into respective folders.
+- 🔄 **De-Organizer Option**: Reverts files back to the original flat structure.
+
+---
+
+## 📌 Example
+
+**Before**:
